@@ -1,0 +1,96 @@
+body{
+  box-sizing: border-box;
+  padding-top: 2rem;
+  background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-repeat: no-repeat;
+  /* height: -webkit-fill-available; */
+color: #34495E;
+  margin: 0;
+}
+#text{
+  overflow-wrap:break-word;
+}
+header{
+  font-family: 'Raleway', sans-serif;
+}
+header>center>h3{
+  font-size: 1.5rem;
+  margin-block-end: 0;
+  margin-block-start: 0.5em;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('../me.JPG');
+}
+.hidden {
+opacity:0;
+}
+a{
+  text-decoration: none;
+}
+.console-container {
+font-family:Khula;
+font-size:4em;
+text-align:center;
+overflow-x: hidden;
+/* height:200px;
+width:600px; */
+display:block;
+/* position:absolute; */
+/* top:0;
+bottom:0;
+left:0;
+right:0; */
+margin:auto;
+}
+.console-underscore {
+ display:inline-block;
+position:relative;
+top:-0.14em;
+left:10px;
+}
+a:active, a:hover, .main-menu ul li:hover a, .drop-menu li a:hover, .drop-menu li a:hover, .section-title h2 span, .gallery-menu ul li:hover, .gallery-menu ul li.active, .blog-text > a:hover, .footer-widget.widget-two a:hover, .footer-widget.widget-two li:hover:after, .error-content h1 span, .breadcrumb a:hover, .breadcrumb li.active, .comment a:hover i, .admin > a:hover i, .back-home a i, .single0blog-coment ul li .comment-heading a.reply:hover, .copyright > p a:hover, .blog-pagination li:last-child a:hover, .single-box:hover i, .event-time-and-place span i, .nivo-nextNav .right:hover i, .nivo-prevNav .left:hover i, .blog-text h3 a:hover, .main-menu li:hover .drop-menu li a:hover, .main-menu li:hover ,.single-mega-item li a:hover, b.is-visible{
+  color: #34495E;
+}
+.header-top, .donate-button > a, .ec-colorswitcher h3, .layout-btn a span, .btn-lg:hover, .btn-md:hover, .btn-sm:hover, .count-down .tab-val, .footer-widget-title > h3:after, .newslater button, .call-to-action ul li ul, .btn-lg-f, .single-project h2:after, .leave-reply .btn-style:hover, .popular-tags nav ul li a:hover, .event-sidt-title > h3:after, .blog-pagination li a:hover, .form-button button:hover, .event-image > h3, #scrollUp {
+  background-color: #34495E;
+}
+.ec-colorswitcher h3, .donate-button > a, .main-menu ul li:hover a, .drop-menu li a:hover, .drop-menu li a:hover, .drop-menu, .mega-menu-area, .btn-lg:hover, .btn-md:hover, .help-icon, .btn-sm:hover, .people-say-image, .people-say-image > img, .blog-text > a:hover, .blog-pagination li a:hover, .single-box:hover, .form-button button:hover, .main-menu li:hover .drop-menu li a:hover, .main-menu li:hover .single-mega-item li a:hover, .main-menu li:hover .single-mega-item li:hover, .main-menu li:hover .drop-menu li:hover{
+  border-color: #34495E;
+}
+/* preloader design */
+/* .preloader{
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ed5ade;
+  border-top: 10px;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+.hidden {
+  display: none;
+}
+@keyframes spin {
+    0%{
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+} */
+/* end preloader design */
+@media () {
+
+}
