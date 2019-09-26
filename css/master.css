@@ -29,8 +29,8 @@ header>center>h3{
   margin-block-start: 0.5em;
 }
 .image{
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-image: url('../me.JPG');
   background-repeat: no-repeat;
